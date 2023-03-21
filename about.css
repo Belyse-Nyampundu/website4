@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.cover21{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  @media screen and (max-width:700px){
+    .cover21{
+       display: block; 
+       grid-template-columns: repeat(1,1fr);
+    } 
+  }
+  .cover-logo11{
+     /* display: grid;  
+    grid-template-columns: repeat(2,1fr);  */
+    display: flex;
+  }
+   @media screen and (max-width:700px) {
+    .cover-logo11{
+      display: block;
+       margin-right: 70em; 
+    }
+  } 
+
+  .cover-word11{
+    padding-top: 1em;
+  }
+  .cover-word11 a{
+    padding-left: 17px;
+  }
+  .co1{
+    color: #F22E52;
+  }
+  /* .cover-word2{
+    padding-top: 1em;
+    padding-left: 20em;
+  } */
+
+  .cover-word21 a{
+   padding-left: 16px;
+  }
+  .cover-word21 a button{
+    width: 6em;
+    height: 2.5em;
+    border-radius: 4.5px;
+    color: white;
+  }
+  /* IMAGES SHOES */
+
+  .cover-image1 img{
+    width: 20em;
+   height: 20em;
+   border-radius: 8px;
+    }
+    @media screen and (max-width:700px){
+      .cover-image1 img{
+      width: 15em;
+      height: 15em;
+      }
+    }
+    .cover-shoes1{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 3em;
+    }
+     @media screen and (max-width:700px){
+      .cover-shoes1{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+      }
+    } 
+    .cover-image1{
+      margin-left: 8em;
+      margin-top: 4em;
+    }
+     .cover-word1 a button{
+      height: 3em;
+      width: 10em;
+      border-radius: 8px;
+      background-color: #F77374;
+      border: none;
+      color: white;
+    } 
+    .cover-shoes21{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 3em;
+      /* margin-right: 12em; */
+    }  
+   @media screen and (max-width:700px){
+    .cover-shoes21{
+      display: block;
+      grid-template-columns: auto;
+    }
+   
+   } 
+       .cover-image21 img{
+      width: 20em;
+      height: 20em;
+      border-radius: 8px;
+    } 
+    @media screen and (max-width:700px){
+      .cover-image21 img{
+      width: 15em;
+      height: 15em;
+      
+      }
+    } 
+      /* .cover-image2{
+    margin-right: 12em;
+   }  
+   @media screen and (max-width:700px){
+    .cover-shoes2{
+      display: block ;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }    */
+   
+       .cover-word21 a button{
+       height: 3em;
+      width: 10em; 
+       border-radius: 8px;
+      background-color: #F77374;
+      border: none;
+      color: white;
+    }    
+    .cover-shoes31{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 5em;
+    }
+    @media screen and (max-width:700px){
+      .cover-shoes31{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+      }
+    }
+    .cover-image31{
+      margin-left: 8em;
+    }
+    .cover-image31 img{
+      width: 20em;
+      height: 20em;
+      border-radius: 8px;
+    }
+    @media screen and (max-width:700px){
+      .cover-image31 img{
+        width: 15em;
+        height: 15em;
+      }
+    }
+    .cover-word31 a button{
+     height: 3em;
+     width: 10em;
+     border-radius: 8px;
+     background-color: #F77374;
+     border: none;
+     color: white;
+    } 
+     /* FOOTER */
+
+    .main-footer1{
+        background-color: #F77374;
+        margin-top: 5em;
+        color: white;
+        padding: 4em;
+      }
+      .footer-11{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+      }
+      @media screen and (max-width:700px){
+        .footer-11{
+          display: block;
+          grid-template-columns: repeat(1,1fr);
+        }
+      }
+      .footer-part41 img{
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 0.7%;
+    }
+    .footer-part41 i{
+      font-size: 2em;
+    }
+    .footer-part51{
+      text-align: center;
+    }
+    
