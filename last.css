@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.cover2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+ }
+ @media screen and (max-width:700px) {
+  .cover2{
+    display: block;
+    grid-template-columns:repeat(1fr) ;
+    font-size: 9px;
+  }
+ }
+
+  .cover-logo12{
+  /* display: grid;  
+ grid-template-columns: repeat(2,1fr);  */
+ display: flex;
+  }
+.cover-word12{
+  padding-top: 1em;
+}
+
+
+.cover-word12 a{
+  padding-left: 17px;
+  text-decoration: none;
+  color: black;
+}
+.co2 b{
+  color: #F22E52;
+}
+.cover-word22{
+  padding-top: 1em;
+  padding-left: 20em;
+}
+
+.cover-word22 a{
+ padding-left: 16px;
+}
+.cover-word22 a button{
+  width: 6em;
+  height: 2.5em;
+  border-radius: 4.5px;
+  /* color: white; */
+}
+
+
+.main-cover{
+    font-size: 2em;
+    text-align: center;
+  }
+  @media screen and (max-width:700px){
+    .main-cover{
+      font-size: 1em;
+    }
+  }
+  .ending-form form input{
+  font-size: 0.5em;
+  width: 25em;
+  height: 3em;
+  border-radius: 2em;
+  background-color: white;
+  color: white;
+  border: none;
+  }
+  @media screen and(max-width:700px){
+    
+  }
+  .ending-form form i{
+    position: absolute;
+    padding-left: 11em;
+    padding-top: 0.3em;
+  }
+  .cover-submit form input{
+    font-size: 0.5em;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 2em;
+    background-color: #f95371;
+    border: none;
+    color: white;
+  }
+  #expand{
+    height: 10em;
+   
+  }

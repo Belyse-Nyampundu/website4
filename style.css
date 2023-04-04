@@ -8,19 +8,6 @@ body{
     overflow-y: scroll;
 
 }
-/* @media screen and (max-width:700px){
-  body{
-    overflow: hidden;
-    overflow-y: scroll;
-    padding: auto;
-    margin: auto;
-  }
-} */
-  /* @media screen and (max-width:700px) {
-   body{
-    background: blue;
-   }
-  } */
  .main{
     background-image: url(/images/redmovecropped_360.png);
     background-repeat: no-repeat;
@@ -30,8 +17,9 @@ body{
  }
  @media screen and (max-width:700px){
   .main{
-    width: 50em;
-    height: 40em;
+    width: 30em;
+    height: 32em;
+    background-size: 300px;
   }
  }
 .navigation3{
@@ -43,6 +31,7 @@ body{
   .navigation3{
     display: block;
     grid-template-columns: repeat(1,1fr);
+  
   }
 }
 
@@ -88,14 +77,20 @@ body{
 @media screen and (max-width:700px){
   .logo3{
     display: block;
-  
+    
 
   }
 }
 .logo33{
     padding-top: 18px;
-    padding-right: 20px; 
-    
+    padding-right: 20px;   
+}
+.logo33 a{
+  text-decoration: none;
+  color: black;
+}
+.home b{
+  color: #F22E52;
 }
 .logo233 a button{
     width: 80px;
@@ -128,7 +123,7 @@ body{
 }
 @media screen and (max-width:700px){
   .part-one3 h1{
-    font-size: 40px;
+    font-size: 15px;
   }
 }
 .part-two3 img{
@@ -136,7 +131,7 @@ body{
 }
 @media screen and (max-width:700px){
   .part-two3 img{
-    width: 17em;
+    width: 15em;
   }
 }
 .part-one3 span{
@@ -168,8 +163,10 @@ body{
 @media screen and (max-width:700px){
   .best-part h4{
     text-align: left;
+    font-size: 1.1em;
   }
 }
+
   .part-shoes3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -324,6 +321,12 @@ body{
    font-size: 30px; 
    color: black;  
 } 
+@media screen and (max-width:700px){
+  .sub-main3 h4{
+    font-size: 1.2em;
+  }
+}
+
 .gender3{
  display: flex;
 }
@@ -334,12 +337,23 @@ sub-main3 a{
     padding-left: 5%;
     font-size: 30px;   
 }
+@media screen and (max-width:700px){
+  .gender3 a{
+    font-size: 1em;
+  }
+}
  .men3{
     color: #F22E52;
 } 
 .button13{
     padding-left: 45%;  
     padding-top: 20px; 
+}
+@media screen and (max-width:700px){
+  .button13{
+     width: 70%; 
+     padding-left: 25px;
+  }
 }
 .button13 a button{
     width: 20%;
@@ -348,6 +362,8 @@ sub-main3 a{
     border-color: #F77374;
     color: #F77374;
 }
+
+
 .fourth-part3{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -404,6 +420,11 @@ sub-main3 a{
   text-align: center;
   font-size: 2em;
  }
+ @media screen and (max-width:700px){
+  .sub2-main3 h2{
+    font-size: 1.2em;
+  }
+ }
   .new-shoes39{
     display: grid;
     grid-template-columns: repeat(2,1fr);  
@@ -432,12 +453,13 @@ sub-main3 a{
     background-size: cover;
     background-position: fixed;
     border-radius: 5%;
-
-
   }
   .offer-word16{
     margin-left: 2em;
   }
+
+
+
   .offer-word16 button{
     width: 120px;
     height: 30px; 
@@ -447,10 +469,14 @@ sub-main3 a{
     border-color:  #F77374;
     border-radius: 5px;
   }
+ 
+
   .offer-word16 p span{
     color: #F77374;
     padding-left: 10px;
   }
+
+  
   .offer-word23{
     margin-left: 2em; 
   }
@@ -517,11 +543,31 @@ sub-main3 a{
   @media screen and (max-width:700px){
     .box-image{
       float: left;
+    } 
+  }
+  .persons{
+
+  }
+  @media screen and (max-width:700px){
+    .persons{
+      font-size: 0.9em;
     }
-   
   }
   .test{
     color:#CB1652;
+  }
+  @media screen and (max-width:700px){
+    .test{
+      font-size: 0.6em;
+    }
+  }
+  .tests{
+
+  }
+  @media screen and(max-width:700px){
+    .tests{
+  font-size: 100em;
+    }
   }
 
   /* next to the foot */
@@ -540,6 +586,7 @@ sub-main3 a{
  @media screen and (max-width:700px){
   .info{
     width: 35em;
+    font-size: 0.9em;
   }
  }
  .info a button{
@@ -548,12 +595,25 @@ sub-main3 a{
   margin-left: 0.5%;
   border-radius: 5px;
 } 
+@media screen and (max-width:700px){
+  .info a button{
+    width: 9em;
+    font-size: 0.8em;
+  }
+ }
   /* last part */
   .main-footer{
     background-color: #F77374;
-    margin-top: 5em;
+    /* margin-top: 5em; */
     color: white;
-    padding: 4em;
+    /* padding: 4em; */
+    margin: 3em 0 0 0;
+    padding: 3em 0 5em 0;
+  }
+  @media screen and(max-width:700px){
+    
+  }.main-footer{
+    text-align: center;
   }
   .footer-1{
     display: grid;
@@ -571,8 +631,19 @@ sub-main3 a{
     border-radius: 10px;
     margin-left: 0.7%;
 }
+@media screen and (max-width:700px){
+  .footer-part4 img{
+   width: 70px;
+   height: 20px;
+  }
+}
 .footer-part4 i{
   font-size: 2em;
+}
+@media screen and (max-width:700px){
+  .footer-part4 i{
+    font-size: 1em;
+  }
 }
 .footer-part5{
   text-align: center;
